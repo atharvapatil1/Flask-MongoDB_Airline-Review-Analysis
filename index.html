@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DB Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+
+<body>
+
+    <div class="container mt-5">
+        <h1>Airline Review Analysis</h1>
+
+        <button class="btn btn-primary mt-3" data-toggle="collapse" data-target="#query1" aria-expanded="false"
+            aria-controls="query1">
+            Query 1 : Food & Beverages Feedback Analysis
+        </button>
+        <div class="collapse mt-3" id="query1">
+            <div class="card card-body">
+                <canvas id="chartQuery1" width="200" height="100"></canvas>
+            </div>
+        </div>
+
+        <button class="btn btn-primary mt-3" data-toggle="collapse" data-target="#query2" aria-expanded="false"
+            aria-controls="query2">
+            Query 2 : Analysis of Sentiment Versus Value for Money
+        </button>
+        <div class="collapse mt-3" id="query2">
+            <div class="card card-body">
+                <canvas id="chartQuery2" width="200" height="100"></canvas>
+            </div>
+        </div>
+
+        <button class="btn btn-primary mt-3" data-toggle="collapse" data-target="#query3" aria-expanded="false"
+            aria-controls="query3">
+            Query 3 : Sentiment Analysis by Route Popularity
+        </button>
+        <div class="collapse mt-3" id="query3">
+            <div class="card card-body">
+                <canvas id="chartQuery3" width="200" height="100"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <footer>
+        <p>Author: Atharva Patil<br></p>
+    </footer>
+</body>
+
+</html>
